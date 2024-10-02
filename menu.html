@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9 เมนูยอดฮิตอาหารภาคเหนือ</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #ffffff; /* Light background for the body */
+        }
+        .nav-item {
+            margin-left: 8px; 
+            margin-right: 8px; 
+        }
+        .logo {
+            height: 100px; 
+        }
+        .pagination {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .footer {
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            padding: 10px 0;
+            background-color: #63645f;
+            color: rgb(255, 255, 255);
+        }
+        .card {
+            transition: transform 0.2s; /* Animation for hover effect */
+        }
+        .card:hover {
+            transform: scale(1.05); /* Slightly enlarge on hover */
+        }
+        .carousel-item img {
+            height: 400px; /* Set fixed height for carousel images */
+            object-fit: cover; /* Cover the entire area */
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">
+        <img src="images/cooking.png" alt="Logo" class="logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+                <a class="nav-link border rounded p-2" href="index.html">
+                    <i class="fas fa-utensils"></i> หน้าเเรก
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link border rounded p-2" href="menu.html">
+                    <i class="fas fa-utensils"></i> รายการอาหาร
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link border rounded p-2" href="method.html">
+                    <i class="fas fa-book"></i> วิธีทำ
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link border rounded p-2" href="contact.html">
+                    <i class="fas fa-envelope"></i> ติดต่อ
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link border rounded p-2" href="about.html">
+                    <i class="fas fa-user"></i> ผู้จัดทำ
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="bg-image p-5 text-center shadow-1-strong text-black mb-5" 
+     style="background-image: url('./images/EE.jpg'); background-size: cover; background-position: center; height: 400px; display: flex; align-items: center; justify-content: center;">
+    <h1 style="color: white; font-size: 3rem; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); font-family: 'Sukhumvit Set', sans-serif;">
+    </h1>
+</div>
+<div class="container mt-5" id="menu">
+    <h2 class="text-center mb-4"></h2>
+    <div class="row">
+        
+        <div class="container mt-5" id="menu">
+            <h2 class="text-center mb-4"></h2>
+            <div class="row">
+                  <div class="col-md-4 d-flex justify-content-center mb-4">
+                    <div class="card" style="width: 18rem; background-color: #b3f1ea;">
+                        <img src="images/kanomjeen.jpg" class="card-img-top" alt="ขนมจีนน้ำเงี้ยว">
+                        <div class="card-body">
+                            <h5 class="card-title">ขนมจีนน้ำเงี้ยว</h5>
+                            <p class="card-text">เมนูยอดนิยมของภาคเหนือ ที่มีรสชาติเข้มข้นและกลิ่นหอม</p>
+                            <a href="method.html" class="btn btn-primary">ดูรายละเอียดและวิธีทำ</a>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="col-md-4 d-flex justify-content-center mb-4">
+                    <div class="card" style="width: 18rem; background-color: #fbf973;">
+                        <img src="images/kaosoi.jpg" class="card-img-top" alt="ข้าวซอย">
+                        <div class="card-body">
+                            <h5 class="card-title">ข้าวซอย</h5>
+                            <p class="card-text">ข้าวซอยเป็นเมนูเส้นในน้ำซุปกะทิ รสชาติกลมกล่อม ทานคู่กับเครื่องเคียงหลากหลาย.</p>
+                            <a href="khao_soi_details.html" class="btn btn-primary">ดูรายละเอียดและวิธีทำ</a>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-4 d-flex justify-content-center">
+                    <div class="card mb-4" style="width: 18rem; background-color: #dab575;">
+                        <img src="images/nam.jpg" class="card-img-top" alt="น้ำพริกอ่อง">
+                        <div class="card-body">
+                            <h5 class="card-title">น้ำพริกอ่อง</h5>
+                            <p class="card-text">น้ำพริกอ่องเป็นน้ำพริกที่มีรสชาติเข้มข้น ทำจากเนื้อหมูและสมุนไพรต่างๆ ทานคู่กับผักสด.</p>
+                            <a href="nam_prik_ong_details.html" class="btn btn-primary">ดูรายละเอียดอละวิธีทำ</a>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-4 d-flex justify-content-center">
+                    <div class="card mb-4" style="width: 18rem; background-color: #a4ed8e;">
+                        <img src="images/Larb.jpg" class="card-img-top" alt="ลาบ">
+                        <div class="card-body">
+                            <h5 class="card-title">ลาบ</h5>
+                            <p class="card-text">ลาบเป็นอาหารประเภทสลัดเนื้อที่มีรสชาติเผ็ดและกลิ่นหอมจากสมุนไพร มักใช้เนื้อหมูหรือเนื้อไก่.</p>
+                            <a href="larb_details.html" class="btn btn-primary">ดูรายละเอียดอละวิธีทำ</a>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-4 d-flex justify-content-center">
+                    <div class="card mb-4" style="width: 18rem; background-color: #8fb4ec;">
+                        <img src="images/Mushroom.jpg" class="card-img-top" alt="แกงเห็ดเผาะ">
+                        <div class="card-body">
+                            <h5 class="card-title">แกงเห็ดเผาะ</h5>
+                            <p class="card-text">แกงเห็ดเผาะเป็นแกงที่มีรสชาติเข้มข้นและกลิ่นหอมจากเห็ดเผาะสด ทานคู่กับข้าวสวยร้อนๆ.</p>
+                            <a href="mushroom_curry_details.html" class="btn btn-primary">ดูรายละเอียดอละวิธีทำ</a>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-4 d-flex justify-content-center">
+                    <div class="card mb-4" style="width: 18rem; background-color: #f49797;">
+                        <img src="images/Phakad.jpg" class="card-img-top" alt="จอผักกาด">
+                        <div class="card-body">
+                            <h5 class="card-title">จอผักกาด</h5>
+                            <p class="card-text">จอผักกาดเป็นเมนูที่ทำจากผักกาดและเครื่องปรุงรสต่างๆ มีรสชาติกลมกล่อมและเหมาะสำหรับทานคู่กับข้าว.</p>
+                            <a href="phakad_details.html" class="btn btn-primary">ดูรายละเอียดอละวิธีทำ</a>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-4 d-flex justify-content-center">
+                    <div class="card mb-4" style="width: 18rem; background-color: #eddd4f;">
+                        <img src="images/fieldcrabs.jpg" class="card-img-top" alt="อ่องมันปู">
+                        <div class="card-body">
+                            <h5 class="card-title">อ่องมันปู</h5>
+                            <p class="card-text">อ่องมันปูเป็นเมนูที่ทำจากปูและเครื่องปรุงรสต่างๆ มีรสชาติหวานและเค็ม กลิ่นหอมจากสมุนไพร.</p>
+                            <a href="field_crabs_details.html" class="btn btn-primary">ดูรายละเอียดอละวิธีทำ</a>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-4 d-flex justify-content-center">
+                    <div class="card mb-4" style="width: 18rem; background-color: #faebd7;">
+                        <img src="images/max.jpg" class="card-img-top" alt="แหนมหมกไข่">
+                        <div class="card-body">
+                            <h5 class="card-title">แหนมหมกไข่</h5>
+                            <p class="card-text">แหนมหมกไข่เป็นอาหารที่ทำจากเนื้อหมูหมักและไข่ ซึ่งมีกลิ่นหอมและรสชาติเปรี้ยวอมหวาน เหมาะสำหรับทานเป็นกับข้าว.</p>
+                            <a href="naem_mok_kai_details.html" class="btn btn-primary">ดูรายละเอียดอละวิธีทำ</a>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-md-4 d-flex justify-content-center">
+                    <div class="card mb-4" style="width: 18rem; background-color: #ce95b0;">
+                        <img src="images/chak.jpg" class="card-img-top" alt="ยำไก่">
+                        <div class="card-body">
+                            <h5 class="card-title">ยำไก่</h5>
+                            <p class="card-text">ยำไก่เป็นสลัดไก่ที่มีรสชาติเผ็ดเปรี้ยว พร้อมกลิ่นหอมจากสมุนไพรและน้ำยำที่จัดจ้าน.</p>
+                            <a href="yang_kai_details.html" class="btn btn-primary">ดูรายละเอียดอละวิธีทำ</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            
+        
+  
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+        

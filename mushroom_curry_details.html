@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>อาหารภาคเหนือ - แกงเห็ดเผาะ</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+body {
+    font-family: 'Sukhumvit Set', sans-serif;
+    color: #333; 
+}
+
+h2, h3 {
+    color: #5d4037; /* Dark brown */
+}
+
+.navbar {
+    background-color: #ffffff; /* White background */
+}
+
+.nav-link {
+    color: #5d4037 !important; /* Dark brown */
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    background-color: #e0e0e0; /* Light grey */
+    color: #4e342e !important; /* Darker brown on hover */
+}
+
+.img-fluid {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table thead {
+    background-color: #5d4037; /* Dark brown */
+    color: white; 
+}
+
+.table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2; 
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #d7ccc8; /* Light brown */
+}
+
+ol {
+    background-color: #d7ccc8; /* Light brown */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+ol li {
+    margin-bottom: 10px;
+}
+
+.text-center img {
+    margin-bottom: 20px;
+}
+
+footer {
+    margin-top: 30px;
+    padding: 20px 0;
+    background-color: #5d4037; /* Dark brown */
+    color: white; 
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+  
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link border rounded p-2" href="index.html">หน้าเเรก</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link border rounded p-2" href="menu.html">รายการอาหาร</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link border rounded p-2" href="method.html">วิธีทำ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link border rounded p-2" href="contact.html">ติดต่อ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link border rounded p-2" href="about.html">ผู้จัดทำ</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="text-center">
+        <img src="images/Mushroom.jpg" class="img-fluid" style="width: 500px;" alt="แกงเห็ดเผาะ">
+    </div>
+
+    <div class="container mt-5">
+        <h2 class="text-center mb-4" style="font-size: 2.5em; font-weight: bold;">ส่วนผสมและวิธีทำ "แกงเห็ดเผาะ"</h2>
+
+        <table class="table table-bordered mt-4">
+            <thead>
+                <tr>
+                    <th>ส่วนผสม</th>
+                    <th>ปริมาณ</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>เห็ดเผาะ</td><td>300 กรัม</td></tr>
+                <tr><td>พริกแกงเผ็ด</td><td>2 ช้อนโต๊ะ</td></tr>
+                <tr><td>กะทิ</td><td>400 มิลลิลิตร</td></tr>
+                <tr><td>น้ำปลา</td><td>1 ช้อนโต๊ะ</td></tr>
+                <tr><td>น้ำตาลปี๊บ</td><td>1 ช้อนโต๊ะ</td></tr>
+                <tr><td>ใบมะกรูด</td><td>3 ใบ</td></tr>
+                <tr><td>พริกชี้ฟ้า</td><td>สำหรับตกแต่ง</td></tr>
+            </tbody>
+        </table>
+
+        <h3 class="text-center mt-4">วิธีทำ</h3>
+        <div class="d-flex justify-content-center">
+            <ol class="mt-2" style="text-align: left; max-width: 500px;">
+                <li>ใส่กะทิลงในหม้อแล้วตั้งไฟจนเดือด</li>
+                <li>ใส่พริกแกงเผ็ดและคนให้เข้ากัน</li>
+                <li>เติมเห็ดเผาะลงไป เคี่ยวให้เห็ดสุก</li>
+                <li>ปรุงรสด้วยน้ำปลาและน้ำตาลปี๊บ</li>
+                <li>ใส่ใบมะกรูดและพริกชี้ฟ้าลงไป</li>
+                <li>เคี่ยวต่ออีกสักครู่จนกลิ่นหอม</li>
+                <li>เสิร์ฟในชาม ตกแต่งด้วยพริกชี้ฟ้า</li>
+            </ol>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+

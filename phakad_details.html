@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>อาหารภาคเหนือ - จอผักกาด</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+body {
+    font-family: 'Sukhumvit Set', sans-serif;
+    color: #333; 
+}
+
+h2, h3 {
+    color: #4caf50; /* Light green */
+}
+
+.navbar {
+    background-color: #ffffff; /* White background */
+}
+
+.nav-link {
+    color: #4caf50 !important; /* Light green */
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    background-color: #e0e0e0; /* Light grey */
+    color: #388e3c !important; /* Darker green on hover */
+}
+
+.img-fluid {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table thead {
+    background-color: #4caf50; /* Light green */
+    color: white; 
+}
+
+.table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2; 
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #c8e6c9; /* Very light green */
+}
+
+ol {
+    background-color: #c8e6c9; /* Very light green */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+ol li {
+    margin-bottom: 10px;
+}
+
+.text-center img {
+    margin-bottom: 20px;
+}
+
+footer {
+    margin-top: 30px;
+    padding: 20px 0;
+    background-color: #4caf50; /* Light green */
+    color: white; 
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+  
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link border rounded p-2" href="index.html">หน้าเเรก</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link border rounded p-2" href="menu.html">รายการอาหาร</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link border rounded p-2" href="method.html">วิธีทำ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link border rounded p-2" href="contact.html">ติดต่อ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link border rounded p-2" href="about.html">ผู้จัดทำ</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="text-center">
+        <img src="images/Phakad.jpg" class="img-fluid" style="width: 500px;" alt="จอผักกาด">
+    </div>
+
+    <div class="container mt-5">
+        <h2 class="text-center mb-4" style="font-size: 2.5em; font-weight: bold;">ส่วนผสมและวิธีทำ "จอผักกาด"</h2>
+
+        <table class="table table-bordered mt-4">
+            <thead>
+                <tr>
+                    <th>ส่วนผสม</th>
+                    <th>ปริมาณ</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>ผักกาด</td><td>300 กรัม</td></tr>
+                <tr><td>กระเทียม</td><td>3 กลีบ</td></tr>
+                <tr><td>พริกไทย</td><td>1 ช้อนชา</td></tr>
+                <tr><td>น้ำปลา</td><td>1 ช้อนโต๊ะ</td></tr>
+                <tr><td>น้ำมันพืช</td><td>1 ช้อนโต๊ะ</td></tr>
+                <tr><td>มะนาว</td><td>สำหรับเสิร์ฟ</td></tr>
+            </tbody>
+        </table>
+
+        <h3 class="text-center mt-4">วิธีทำ</h3>
+        <div class="d-flex justify-content-center">
+            <ol class="mt-2" style="text-align: left; max-width: 500px;">
+                <li>ล้างผักกาดให้สะอาดแล้วหั่นเป็นชิ้นขนาดพอดีคำ</li>
+                <li>โขลกกระเทียมและพริกไทยให้ละเอียด</li>
+                <li>ตั้งน้ำมันในกระทะให้ร้อน ใส่กระเทียมและพริกไทยที่โขลกไว้ลงไปผัดจนหอม</li>
+                <li>เติมผักกาดลงไปผัดให้เข้ากันจนผักสุก</li>
+                <li>ปรุงรสด้วยน้ำปลา แล้วผัดให้เข้ากัน</li>
+                <li>เสิร์ฟร้อนๆ พร้อมกับมะนาว</li>
+            </ol>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

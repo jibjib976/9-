@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9 เมนูยอดฮิตอาหารภาคเหนือ</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Custom CSS -->
+    <style>
+        /* Custom Styling */
+        body {
+            background-color: #f9f9f9;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .nav-item {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        .logo {
+            height: 100px;
+            transition: transform 0.3s;
+        }
+
+        .logo:hover {
+            transform: scale(1.1);
+        }
+
+        /* Style Navbar */
+        .navbar {
+            background-color: #ffffff; /* สีเทาเข้ม */
+            padding: 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .nav-link {
+            color: #330404 !important; /* สีข้อความในเมนูเป็นสีขาว */
+            font-weight: bold;
+            border: 2px solid #86290b; /* เส้นขอบสีส้ม */
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s, border 0.3s;
+        }
+
+        .nav-link:hover {
+            background-color: #f8b400; /* สีส้มเมื่อ hover */
+            color: #343a40 !important; /* สีข้อความเมื่อ hover */
+            border: 2px solid #ffe25f; /* ขอบสีเหลืองเมื่อ hover */
+        }
+
+        /* Tabs styling */
+        .nav-tabs .nav-link {
+            border: none;
+            border-radius: 5px;
+            background-color: #f17a4b; /* สีเทาเข้ม */
+            color: #ffffff;
+            margin-right: 10px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .nav-tabs .nav-link.active {
+            background-color: #f8b400; /* สีส้มสำหรับแท็บที่ active */
+            color: #343a40;
+        }
+
+        .nav-tabs .nav-link:hover {
+            background-color: #f8b400;
+            color: #343a40;
+        }
+
+        /* Card styling */
+        .card {
+            border: none;
+            border-radius: 10px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .card-body {
+            background-color: #ffffff; /* กำหนดให้การ์ดมีพื้นหลังเป็นสีขาว */
+            border-radius: 10px;
+        }
+
+        /* Image styling */
+        .img-fluid {
+            border: 5px solid #f8b400; /* สีส้ม */
+            border-radius: 50%;
+            transition: transform 0.3s, border-color 0.3s;
+        }
+
+        .img-fluid:hover {
+            transform: scale(1.05);
+            border-color: #d52525; /* สีแดงเมื่อ hover */
+        }
+
+        /* Typography */
+        h1 {
+            color: #343a40; /* สีเทาเข้ม */
+            font-weight: bold;
+        }
+
+        .card-title {
+            color: #343a40;
+            font-weight: bold;
+        }
+
+        .card-subtitle {
+            color: #6c757d;
+        }
+
+        .card-text {
+            color: #343a40;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .nav-tabs .nav-link {
+                margin-right: 5px;
+                padding: 8px 10px;
+            }
+
+            .logo {
+                height: 80px;
+            }
+
+            .img-fluid {
+                max-width: 200px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html">
+            <img src="images/cooking.png" alt="Logo" class="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">
+                        <i class="fas fa-utensils"></i> หน้าแรก
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="menu.html">
+                        <i class="fas fa-utensils"></i> รายการอาหาร
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="method.html">
+                        <i class="fas fa-book"></i> วิธีทำ
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">
+                        <i class="fas fa-envelope"></i> ติดต่อ
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">
+                        <i class="fas fa-user"></i> ผู้จัดทำ
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container text-center mt-5">
+        <img src="jib.jpg" alt="อาหารภาคเหนือ" class="img-fluid mx-auto d-block" style="max-width: 250px;" />
+
+        <h1 class="mt-4 text-center">Author Information</h1>
+
+        <ul class="nav nav-tabs justify-content-center mt-4" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="info-tab" data-toggle="tab" href="#info" role="tab"
+                    aria-controls="info" aria-selected="true">ข้อมูลส่วนตัว</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
+                    aria-controls="contact" aria-selected="false">ช่องทางติดต่อ</a>
+            </li>
+        </ul>
+
+        <div class="tab-content mt-4" id="myTabContent">
+            <div class="tab-pane fade show active" id="info" role="tabpanel" aria-labelledby="info-tab">
+                <div class="card shadow-sm mt-4">
+                    <div class="card-body">
+                        <h5 class="card-title">ชื่อ: นางสาวภัทรวดี วิชัยโย</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">คณะ: ครุศาสตร์</h6>
+                        <h6 class="card-subtitle mb-2 text-muted">สาขา: คอมพิวเตอร์ศึกษา</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                <div class="card shadow-sm mt-4">
+                    <div class="card-body">
+                        <p class="card-text">เบอร์โทร: 097-976-9752</p>
+                        <p class="card-text">อีเมล: example@example.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap and JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+

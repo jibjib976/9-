@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9 เมนูยอดฮิตอาหารภาคเหนือ</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Bootstrap Icons CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .navbar-nav .nav-link {
+    color: rgb(178, 98, 0) !important; /* สีข้อความในเมนู */
+    font-weight: bold;
+    border: 2px solid transparent; /* เพิ่มเส้นขอบเริ่มต้นที่โปร่งใส */
+    padding: 5px; /* เพิ่มพื้นที่เพื่อให้ขอบชัดเจนขึ้น */
+    border-radius: 5px; /* ทำให้ขอบโค้งมน */
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: transparent; /* เปลี่ยนเป็นพื้นหลังโปร่งใส */
+    border: 2px solid #ffc107; /* เปลี่ยนเป็นขอบสีเหลืองเมื่อ hover */
+}
+
+        /* ปรับแต่ง Navbar */
+        .navbar {
+            background-color: #ffffff; /* สีเหลือง */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar-nav .nav-link {
+            color: rgb(178, 98, 0) !important; /* สีข้อความในเมนู */
+            font-weight: bold;
+        }
+
+        .navbar-nav .nav-link:hover {
+            background-color: #ffffff; /* เปลี่ยนสีเมื่อ hover */
+            border-radius: 5px;
+        }
+
+        .logo {
+            height: 80px;
+        }
+
+        /* ปรับแต่งพื้นหลังของหน้า */
+        body {
+            background-color: #ffffff; /* สีพื้นหลัง */
+        }
+
+        .contact-card {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(255, 193, 7, 0.5); /* เปลี่ยนจาก rgba(0, 0, 0, 0.1) เป็นสีเหลือง */
+    padding: 2rem;
+    margin-bottom: 2rem;
+    transition: transform 0.3s;
+}
+
+
+        .contact-card:hover {
+            transform: translateY(-10px);
+        }
+
+        /* ปรับแต่งไอคอน */
+        .contact-icon {
+            font-size: 3rem;
+            color: #f8b400;
+            margin-bottom: 1rem;
+        }
+
+        /* ปรับแต่งหัวข้อ */
+        .contact-title {
+            color: #343a40;
+            margin-bottom: 2rem;
+        }
+
+        /* ปรับแต่งลิงก์ */
+        .contact-info a {
+            color: #030303;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            color: #ffff58;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/cooking.png" alt="Logo" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            <i class="fas fa-utensils"></i> หน้าแรก
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">
+                            <i class="fas fa-utensils"></i> รายการอาหาร
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="method.html">
+                            <i class="fas fa-book"></i> วิธีทำ
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">
+                            <i class="fas fa-envelope"></i> ติดต่อ
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">
+                            <i class="fas fa-user"></i> ผู้จัดทำ
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+          
+            <div class="container text-center mt-5">
+                <h1 class="display-4 contact-title">conrach</h1>
+                <div class="row">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="contact-card">
+                            <i class="bi bi-telephone-fill contact-icon"></i>
+                            <h5>Tel</h5>
+                            <p class="lead">
+                                <a href="tel:+66012345678">097-9769-752</a>
+                            </p>
+                        </div>
+                    </div>
+        
+                    <div class="col-md-6 col-lg-3">
+                        <div class="contact-card">
+                            <i class="bi bi-envelope-fill contact-icon"></i>
+                            <h5>Email</h5>
+                            <p class="lead">
+                                <a href="mailto:info@example.com">info@example.com</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="contact-card">
+                            <i class="bi bi-facebook contact-icon"></i>
+                            <h5>Facebook Page</h5>
+                            <p class="lead">
+                                <a href="https://facebook.com/yourpage" target="_blank">Facebook Page</a>
+                            </p>
+                        </div>
+                    </div>
+        
+                    <div class="col-md-6 col-lg-3">
+                        <div class="contact-card">
+                            <i class="bi bi-geo-alt-fill contact-icon"></i>
+                            <h5>Address</h5>
+                            <p class="lead">
+                                123/45 Satit Rd., Mueang District, Chiang Mai, 50200
+                            </p>
+                        </div>
+                    </div>
+        
+                </div>
+            </div>
+        
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        </body>
+        
+        </html>
